@@ -1,0 +1,4 @@
+{
+  "extends": "@nullspace/cb-tsconfig/base.json",
+  "include": ["routes"]
+}
