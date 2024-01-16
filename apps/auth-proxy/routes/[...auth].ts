@@ -11,6 +11,7 @@ export default eventHandler(async (event) => {
       Discord({
         clientId: process.env.AUTH_DISCORD_ID,
         clientSecret: process.env.AUTH_DISCORD_SECRET,
+        checks: ["none"],
       }),
     ],
   });
